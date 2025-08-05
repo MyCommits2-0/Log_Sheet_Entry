@@ -1,7 +1,7 @@
 package com.etms.controller;
 
-import com.etms.dto.ModuleProgressReportDTO;
-import com.etms.dto.ReportRequestDTO;
+import com.etms.dtos.ModuleProgressReportDTO;
+import com.etms.dtos.ReportRequestDTO;
 import com.etms.services.ModuleProgressService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
