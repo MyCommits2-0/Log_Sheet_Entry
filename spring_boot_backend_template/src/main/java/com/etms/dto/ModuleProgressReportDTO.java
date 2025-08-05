@@ -1,4 +1,4 @@
-package com.etms.dtos;
+package com.etms.dto;
 
 import com.etms.pojos.Courses;
 import com.etms.pojos.Employee;
