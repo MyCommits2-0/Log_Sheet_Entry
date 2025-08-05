@@ -1,14 +1,15 @@
 package com.etms.services;
 
 import java.util.List;
-import java.util.Optional;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.etms.custom_exceptions.ResourceNotFoundException;
 import com.etms.dtos.ApiResponse;
+import com.etms.dtos.EmployeeEdit;
 import com.etms.pojos.Employee;
 import com.etms.repository.PersonRepository;
 
@@ -60,5 +61,3 @@ public class PersonServiceImpl implements PersonService {
 	        }
 
 	}
-}
-}
